@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.ccontainer {
+    background-color: #0f0f0f;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.none{
+    visibility: hidden !important;
+    transition: all 0.8s linear;
+}
+
+.titulo{
+    margin: 30px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#result{
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: #aa0000 !important;
+    border: #aa0000 1.5px solid !important;
+    border-radius: 200px !important;
+    margin: 30px;
+    height: 50px;
+    color: #FFF !important;
+    font-weight: 700 !important;
+}
+
+.btn:hover {
+    background-color: #fff !important;
+    color: #aa0000 !important;
+    transition: all .3s linear;
+}
+
+header {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    background-color: transparent;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 44.287px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 15.943px;
+}
+
+.azul {
+    color: #aa0000;
+}
+
+.c {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quiz {
+    background-color: #FFF;
+    width: 27vw;
+    height: 50vh !important;
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+    flex-direction: column;
+    position: absolute;
+    transition: all 0.8s linear;
+}
+
+.quiz:nth-child(1) {
+    height: 70vh;
+}
+
+.imgQuiz {
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://correiodeitapetininga.com.br/wp-content/uploads/2022/10/etec-darcy-pereira-3-1-scaled.jpg');
+}
+
+.perguntas {
+    width: 85%;
+    height: 10%;
+    gap: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pergunta {
+    font-weight: 700;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px !important;
+    align-self: center;
+    width: 80%;
+    height: 20%;
+    font-size: 20px !important;
+    color: #000;
+}
+
+.respostas {
+    width: 15%;
+    height: 100%;
+    border: 1.5px solid #cecece;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: background .5s;
+}
+
+.respostas p {
+    font-weight: 700;
+    color: #aa0000;
+    display: flex;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.respostas:hover {
+    background-color: #aa0000;
+    border: none;
+    cursor: pointer;
+}
+
+.respostas:hover > p {
+    color: #FFF;
+    border: none;
+
+}
+
+@media(max-width: 1366px) {
+    .respostas {
+        width: 20% !important;
+        height: 100% !important;
+        border: 1.5px solid #cecece;
+        border-radius: 15px;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        transition: background .5s;
+    }
+
+    .perguntas {
+        width: 90% !important;
+        height: 15% !important;
+        gap: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        align-self: center;
+    }
+
+    #pergunta {
+        font-weight: 700;
+        display: flex;
+        align-self: center;
+        width: 90% !important;
+        height: auto !important;
+        font-size: 18px !important;
+        color: #000;
+        margin-bottom: 8px !important;
+        margin-top: 20px !important;
+    }
+    .quiz {
+        background-color: #FFF;
+        width: 27vw !important;
+        height: 80vh !important;
+        display: flex;
+        border-radius: 25px;
+        overflow: hidden;
+        flex-direction: column;
+        position: absolute;
+        transition: all 0.8s linear;
+    }
+}
