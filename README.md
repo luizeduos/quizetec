@@ -1,6 +1,6 @@
-# Quizz para Descobrir sua Área
+# Quiz para Descobrir sua Área
 
-Este é um quizz interativo que visa ajudar você a descobrir qual área de atuação profissional pode ser mais adequada com base nas suas preferências e habilidades. O quizz apresenta uma série de perguntas e, ao final, fornece o resultado com a disciplina correspondente à sua área de interesse.
+Este é um quiz interativo que visa ajudar você a descobrir qual área de atuação profissional pode ser mais adequada com base nas suas preferências e habilidades. O quizz apresenta uma série de perguntas e, ao final, fornece o resultado com a disciplina correspondente à sua área de interesse.
 
 ## Instruções
 
